@@ -1,0 +1,34 @@
+  165  clear
+  166  git init
+  167  touch main.js
+  168  touch index.html
+  169  git add .
+  170  git commit -m "commit 01"
+  171  git remote add origin https://github.com/josephdta/Checkpoint-JosephTomal-.git
+  172  git push origin main
+  173  git checkout feature 
+  174  git checkout -b feature
+  175  mkdir Hardware 
+  176  mkdir Software
+  177  mkdir SeguridadInformatica
+  178  cd Hardware/
+  179  touch resumen.txt 
+  180  cd ..
+  181  cd SeguridadInformatica/
+  182  touch resumen.txt
+  183  cd ..
+  184  cd Software/
+  185  touch resumen.txt 
+  186  cd ..
+  187  git add .
+  188  git commit -m "commit 02"
+  189  git push origin feature 
+  190  git checkout main 
+  191  mv main.js resumenHardware.txt 
+  192  mv index.html resumenSoftware.txt 
+  193  vi resumenSoftware.txt 
+  194  vi resumenHardware.txt 
+  195  touch comandos.txt 
+  196  history
+  197  history 31
+  198  history 34 > comandos.txt
